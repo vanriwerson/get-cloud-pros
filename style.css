@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --base-text: rgb(30 15 15);
+  --bg-light: rgb(255 250 245);
+  --bg-emphasis: rgb(240 240 240);
+  --border-emphasis: rgb(204 163 82);
+}
+
+* {
+  background-color: var(--bg-light);
+  color: var(--base-text);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+  text-align: center;
+  width: 100vw;
+}
+
+.page-header {
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+.card {
+  border-top: 2px solid var(--border-emphasis);
+  border-right: 2px solid var(--border-emphasis);
+  border-top-right-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto 40px auto;
+  max-width: 720px;
+  padding: 20px 40px;
+  position: relative;
+}
+
+.avatar-container {
+  background-color: transparent;
+  width: 140px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.text-container {
+  max-width: 480px;
+}
+
+.name {
+  font-size: 1.3rem;
+  padding: 20px 0 0 0;
+  text-align: left;
+}
+
+.presentation-text {
+  padding: 20px;
+  text-align: justify;
+}
+
+.cta {
+  background-color: rgb(220 220 220);
+  border-radius: 12px;
+  color: inherit;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 20px auto;
+  padding: 20px 60px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: fit-content;
+}
+
+.cta:active {
+  transform: scale(0.9);
+}
+
+.cta:hover {
+  background-color: var(--border-emphasis);
+  color: var(--bg-light);
+}
+
+.linkedin-profile {
+  align-items: center;
+  background-color: transparent;
+  bottom: -4px;
+  display: flex;
+  font-size: 2.5rem;
+  justify-content: center;
+  right: -2px;
+  position: absolute;
+}
+
+.linkedin-profile i {
+  background-color: transparent;
+  color: var(--border-emphasis);
+}
