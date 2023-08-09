@@ -3,7 +3,7 @@
 :root {
   --base-text: rgb(30 15 15);
   --bg-light: rgb(255 250 245);
-  --bg-emphasis: rgb(240 240 240);
+  --bg-emphasis: rgb(225 225 225);
   --border-emphasis: rgb(204 163 82);
 }
 
@@ -21,10 +21,41 @@ body {
   width: 100vw;
 }
 
-.page-header {
-  margin-bottom: 20px;
-  padding: 20px;
+.banner {
+  align-items: center;
+  background-color: var(--bg-emphasis);
+  color: var(--border-emphasis);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 240px;
+  margin-bottom: 40px;
+}
+
+.banner i {
+  background-color: transparent;
+  color: inherit;
+  font-size: 6rem;
+}
+
+.title {
+  background-color: transparent;
+  color: inherit;
+  font-size: 3rem;
+  margin-left: 20px;
+}
+
+.title.sub {
+  font-size: 2rem;
+  margin: 0 auto 20px auto;
   width: 100%;
+}
+
+.summary {
+  line-height: 20px;
+  margin: 0 auto 40px auto;
+  max-width: 840px;
+  text-align: justify;
 }
 
 .card {
@@ -66,14 +97,14 @@ body {
 }
 
 .cta {
-  background-color: rgb(220 220 220);
+  background-color: var(--bg-emphasis);
   border-radius: 12px;
   color: inherit;
   cursor: pointer;
   font-weight: 600;
   letter-spacing: 1px;
   margin: 20px auto;
-  padding: 20px 60px;
+  padding: 12px 36px;
   text-decoration: none;
   transition: all 0.3s ease;
   width: fit-content;
@@ -102,4 +133,26 @@ body {
 .linkedin-profile i {
   background-color: transparent;
   color: var(--border-emphasis);
+}
+
+footer {
+  align-items: center;
+  background-color: var(--bg-emphasis);
+  color: var(--border-emphasis);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+footer i {
+  background-color: transparent;
+  color: inherit;
+  font-size: 2rem;
+}
+
+footer p {
+  background-color: transparent;
+  color: inherit;
+  margin-left: 20px;
 }
