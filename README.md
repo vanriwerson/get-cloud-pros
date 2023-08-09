@@ -20,12 +20,12 @@ A arquitetura do projeto na AWS envolve as seguintes tecnologias:
 
 Get Cloud Pros é uma conquista gerada pelo seguite time:
 
+- [Adriana Cortes Correa](https://www.linkedin.com/in/adrianacortescorrea/)
 - [Bruno Riwerson Silva](https://www.linkedin.com/in/bruno-riwerson/)
-- [Nome Integrante 2](https://www.linkedin.com/in/link-perfil-2/)
-- [Nome Integrante 3](https://www.linkedin.com/in/link-perfil-3/)
+- [Edmar Marcelino dos Santos](https://www.linkedin.com/in/edmar-santos-m/)
 - [Nome Integrante 4](https://www.linkedin.com/in/link-perfil-4/)
-- [Nome Integrante 5](https://www.linkedin.com/in/link-perfil-5/)
-- [Nome Integrante 6](https://www.linkedin.com/in/link-perfil-6/)
+- [Leandro Henrique Pereira](https://www.linkedin.com/in/leandro-henrique-498b05125/)
+- [Pedro Henrique Fonseca de Assis](https://www.linkedin.com/in/pedro-assis-fonseca-693947222/)
 
 Cada integrante contribuiu de forma significativa para o desenvolvimento e sucesso deste projeto.
 
