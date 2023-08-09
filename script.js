@@ -23,6 +23,13 @@ const cloudPros = [
     linkedinUrl: 'https://www.linkedin.com/in/edmar-santos-m/',
   },
   {
+    name: 'Gabriela Landim',
+    avatarSrc: 'gabriela-landim.jpeg',
+    resumeHref: 'gabriela-landim.pdf',
+    summary: 'Construindo o futuro com paixão e habilidade, sou uma profissional determinada a fazer a diferença. Minha dedicação incansável, criatividade e compromisso com a excelência impulsionam meu trabalho, estou pronta para enfrentar desafios, superar expectativas e para contribuir significativamente.',
+    linkedinUrl: 'https://www.linkedin.com/in/gabriela-landim-40a59b19b/',
+  },
+  {
     name: 'Leandro Henrique Pereira',
     avatarSrc: 'leandro-henrique-pereira.jpeg',
     resumeHref: 'leandro-henrique-pereira.pdf',
