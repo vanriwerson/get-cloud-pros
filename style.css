@@ -2,13 +2,12 @@
 
 :root {
   --base-text: rgb(30 15 15);
-  --bg-light: rgb(255 250 245);
-  --bg-emphasis: rgb(225 225 225);
-  --border-emphasis: rgb(204 163 82);
+  --bg-light: rgb(255 255 255);
+  --bg-emphasis: rgb(95 177 238);
+  --border-emphasis: rgb(83 116 251);
 }
 
 * {
-  background-color: var(--bg-light);
   color: var(--base-text);
   box-sizing: border-box;
   margin: 0;
@@ -16,6 +15,7 @@
 }
 
 body {
+  background-color: var(--bg-light);
   font-family: 'Roboto', sans-serif !important;
   text-align: center;
   width: 100vw;
@@ -23,8 +23,9 @@ body {
 
 .banner {
   align-items: center;
-  background-color: var(--bg-emphasis);
-  color: var(--border-emphasis);
+  background-image: url(header.png);
+  background-size: cover;
+  color: var(--bg-light);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -59,9 +60,12 @@ body {
 }
 
 .card {
+  background-image: url('card.png');
+  background-size: 100%;
   border-top: 2px solid var(--border-emphasis);
   border-right: 2px solid var(--border-emphasis);
   border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -99,7 +103,7 @@ body {
 .cta {
   background-color: var(--bg-emphasis);
   border-radius: 12px;
-  color: inherit;
+  color: var(--bg-light);
   cursor: pointer;
   font-weight: 600;
   letter-spacing: 1px;
@@ -137,11 +141,11 @@ body {
 
 footer {
   align-items: center;
-  background-color: var(--bg-emphasis);
-  color: var(--border-emphasis);
+  background-image: url('footer.png');
+  color: var(--bg-light);
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-end;
   padding: 20px;
 }
 
@@ -155,4 +159,5 @@ footer p {
   background-color: transparent;
   color: inherit;
   margin-left: 20px;
+  margin-right: 40px;
 }
