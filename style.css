@@ -142,6 +142,7 @@ body {
 footer {
   align-items: center;
   background-image: url('footer.png');
+  background-size: cover;
   color: var(--bg-light);
   display: flex;
   flex-wrap: wrap;
