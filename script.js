@@ -48,7 +48,7 @@ const cloudPros = [
 const presentationCard = (pro) => {
   return (`<section class="card">
     <div class="avatar-container">
-      <img class="avatar" src="${pro.avatarSrc}" alt="Avatar de ${pro.name}"/>
+      <img class="avatar" src="images/${pro.avatarSrc}" alt="Avatar de ${pro.name}"/>
     </div>
 
     <div class="text-container">
@@ -56,7 +56,7 @@ const presentationCard = (pro) => {
       <p class="presentation-text">${pro.summary}</p>
     </div>
 
-    <a class="cta" href="${pro.resumeHref}" target="_blank">Acesse meu currículo</a>
+    <a class="cta" href="resumes/${pro.resumeHref}" target="_blank">Acesse meu currículo</a>
 
     <a class="linkedin-profile" href="${pro.linkedinUrl}" target="_blank"><i class="fab fa-linkedin"></i></a>
   </section>`)
