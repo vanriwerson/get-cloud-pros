@@ -19,7 +19,7 @@ const cloudPros = [
     name: 'Edmar Marcelino dos Santos',
     avatarSrc: 'edmar-marcelino-dos-santos.jpg',
     resumeHref: 'edmar-marcelino-dos-santos.pdf',
-    summary: 'Busco sempre  estar em conexão com as pessoas, sempre  buscando aprender e compartilhar todo apendizado para melhoria contínua. Possuo experiência como Analista de Suporte a Sistemas com expertise em SQL e identificação de causas raiz e tratativas, conhecimento em linguagens de programação.',
+    summary: 'Busco sempre estar em conexão com as pessoas e aprimorando o conhecimento e aprendizado dia a dia. Com boa experiência profissional desenvolvida na área de TI, tendo atuado no cargo mais recente como Analista de Sistemas Júnior, estou neste momento em busca de novos desafios profissionais.',
     linkedinUrl: 'https://www.linkedin.com/in/edmar-santos-m/',
   },
   {
