@@ -53,15 +53,21 @@ body {
 }
 
 .summary {
+  display: flex;
   line-height: 20px;
   margin: 0 auto 40px auto;
   max-width: 800px;
   text-align: justify;
 }
 
+.summary p {
+  padding: 0 20px;
+  width: 100%;
+}
+
 .card {
   background-image: url('card.png');
-  background-size: 100%;
+  background-size: cover;
   border-top: 2px solid var(--border-emphasis);
   border-right: 2px solid var(--border-emphasis);
   border-top-right-radius: 12px;
@@ -160,5 +166,64 @@ footer p {
   background-color: transparent;
   color: inherit;
   margin-left: 20px;
-  margin-right: 40px;
+  margin-right: 10vw;
+}
+
+@media (max-width: 720px) {
+  .card {
+    align-items: center;
+    flex-direction: column;
+    max-width: 640px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .banner {
+    height: 140px;
+  }
+
+  .banner i {
+    font-size: 4rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .title.sub {
+    font-size: 1rem;
+  }
+
+  .card {
+    margin: 40px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .presentation-text {
+    text-align: left;
+  }
+
+  .linkedin-profile {
+    right: -2px;
+  }
+}
+
+@media (max-width: 360px) {
+  .banner {
+    height: 100px;
+  }
+
+  .banner i {
+    font-size: 3.5rem;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+  }
+  
+  .title.sub {
+    display: none;
+  }
 }
